@@ -110,7 +110,7 @@ while True:
     print("8.History  : ? ")
 
     # take input from the user
-    choice = input("Enter choice(+,-,*,/,^,%,#,$,?): ")
+    choice = input("Enter Operator/Command (+,-,*,/,^,%,#,$,?): ")
     print(choice)
     if (select_op(choice) == -1):
         # program ends here
